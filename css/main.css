@@ -1,0 +1,459 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing:border-box;
+
+}
+.header{
+	padding: 10px;
+	background-color: #222;
+	color: #FFF;
+	overflow: hidden;
+}
+.header h1{
+	display: inline-block;
+}
+.header-group{
+	float: right;
+	display: inline-block;
+	padding-top: 10px;
+	color: #EEE;
+}
+.header-group span:hover{
+	color: #FFF;
+	cursor: pointer;
+}
+.center{
+	margin-left: auto;
+	margin-right: auto;
+	width: 900px;
+}
+.center2{
+	margin-left: auto;
+	margin-right: auto;
+	width: 900px;
+	height: 100%;
+}
+.content{
+	background-color: #EEE;
+	overflow: hidden;
+	width: 100%;
+
+}
+.page{
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+}
+.page-login{
+	position: relative;
+	height: 570px;
+	background-color: #000;
+	z-index: 1;
+	
+}
+.page-login:before{
+	content : "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url(../img/cover.jpg); 
+    background-repeat:no-repeat;
+	background-size:cover;
+    width: 100%;
+    height: 100%;
+    opacity : 0.5;
+    z-index: -1;
+}
+
+.page-login-title{
+	padding-top: 10%;
+	font-weight: bolder;
+	font-size: 100px;
+	color: #FFF;
+	opacity : 1;
+	z-index: 2;
+}
+.page-login-btn{
+	display: inline-block;
+	padding: 10px;
+	background-color: #45619D;
+	color: #FFF;
+	font-size: 20px;
+	font-weight: bold;
+}
+.page-login-btn:hover{
+	background-color: #5A78B6;
+	cursor: pointer;
+}
+
+.page-login-area{
+	margin-right: auto;
+	margin-left: auto;
+	width: 700px;
+	text-align: right;
+}
+
+.page-main{
+	min-height: 570px;
+	background-color: #CCC;
+}
+.main-pofile{
+	margin-bottom: 10px;
+}
+.main-pofile-img{
+	width: 50px;
+	height: 50px;
+	border: solid 1px #888;
+	vertical-align: middle;
+	background-color: #DDD;
+}
+.main-pofile-name{
+	font-size: 16px;
+	font-weight: bold;
+	vertical-align: middle;
+	display: inline-block;
+	color: #333;
+}
+
+.main-menu{
+	width: 21%;
+	margin: 0.5%;
+	margin-top: 1%;
+	float: left;
+	background-color: #FFF;
+	padding: 0.5%;
+}
+
+.menu-list-achive{
+	background-color: #bdf;
+	font-weight: bold;
+}
+.main-menu-list{
+	padding: 10px;
+}
+
+.main-menu-list:hover{
+	color: #333;
+	padding: 10px;
+	background-color: #ace;
+	cursor: pointer;
+}
+
+.main-content{
+	width: 77%;
+	height: 100%;
+	margin: 0.5%;
+	margin-top: 1%;
+	float: left;
+	background-color: #FFF;
+	padding: 2%;
+}
+
+.pj-title{
+	display: inline-block;
+}
+
+.card-list{
+	
+}
+
+
+.pj-list-box{
+	display: inline-block;
+	width: 200px;
+	height: 160px;
+	background-color: #efefef;
+	border: solid 1px #CCC;
+	padding: 13px;
+	margin: 5px;
+}
+
+.pj-list-box:hover{
+	cursor: pointer;
+	background-color: #acacff;
+}
+
+.pj-list-box-img{
+	
+	height: 100px;
+	margin-right: auto;
+	margin-left: auto;
+	border: solid 1px #CCC;
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.pj-list-box-name{
+	overflow: hidden;
+	white-space:nowrap;
+	font-size: 20px;
+	padding-top: 8px;
+	
+}
+
+
+
+.footer{
+	color: #AAA;
+	background-color: #444;
+	padding: 20px;
+	text-align: right;
+	overflow: hidden;
+}
+.footer a{
+	color: #DDD;
+	text-decoration: none;
+}
+
+
+
+
+
+
+/*
+ * 以下為 賀卡編輯 Style
+ */
+
+
+.card-main{
+	position: relative;
+	width: 100%;
+	height: 400px;
+	border: solid 1px #CCC;
+	background-color: #efefef;
+
+	background-size: auto 400px;
+	background-position: center center;
+	background-repeat: no-repeat;
+
+	overflow: hidden;
+}
+
+
+
+.card-main2{
+	position: relative;
+	width: 650px;
+	height: 400px;
+	border: solid 1px #CCC;
+	background-color: #efefef;
+	
+	background-size: auto 400px;
+	background-position: center center;
+	background-repeat: no-repeat;
+
+	overflow: hidden;
+}
+
+
+
+.card-font-menu{
+	visibility: hidden;
+	display: inline-block;
+	margin: 3px;
+}
+.card-font-menu-hint{
+	color: #555;
+	font-size: 12px;
+}
+#card-font-color{
+	height: 25px;
+	width: 100px;
+}
+#card-font-size{
+	height: 25px;
+	width: 40px;
+}
+.card-add-btn{
+	height: 25px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+
+.text-label{
+	position: relative;
+	border: solid 2px rgba(0,0,0,0); 
+	font-size: 25px;
+	color: #fff;
+	min-height: 30px;
+	width: 210px;
+	min-width: 90px;
+	opacity: 1;
+	word-break:break-all;
+}
+.text-label2{
+	position: relative;
+	border: solid 2px rgba(0,0,0,0); 
+	font-size: 25px;
+	color: #fff;
+	min-height: 30px;
+	width: 210px;
+	min-width: 90px;
+	opacity: 1;
+	word-break:break-all;
+}
+
+.text-label:hover{
+	cursor: move;
+}
+
+.text-content{
+	display: inline-block;
+	height: 100%;
+	width: 100%;
+	margin-left: -2px;
+	outline: none;
+	border: solid 2px rgba(0,0,0,0);
+}
+
+
+.text-content[contenteditable="true"]{
+	cursor: text;
+	background-color: rgba(102,153,204,0.1);
+}
+
+
+
+.text-control-panel{
+	font-size: 12px;
+	color: #888;
+	visibility: hidden;
+	height: 16px;
+	margin-top: -18px;
+}
+
+.text-control-panel span:hover{
+	color: #fff;
+	cursor: pointer;
+
+}
+
+
+/*
+ * Light box Style
+ */
+
+.light-cover{
+	background-color: rgba(0,0,0,0.8);
+	position: fixed;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 100;
+	text-align: center;
+}
+.light-cover:before{
+	content: '';
+	display: inline-block;
+	height: 100%;
+	width: 0;
+	vertical-align: middle;
+}
+.light-box{
+
+	text-align:left;
+	display: inline-block;
+	vertical-align: middle;
+	
+	padding: 20px;
+	background-color: #FFF;
+
+	min-width: 500px;
+}
+
+.light-box h1{
+	display: inline-block;
+	padding-bottom: 15px;
+}
+
+.light-box-btn{
+	padding: 7px;
+	float: right;
+	margin-left: 5px;
+}
+.url-bg-img{
+	width: 450px;
+	height: 28px;
+	font-size: 16px;
+}
+
+.icon-colse{
+	font-size: 27px;
+	color: #888;
+	float: right;
+}
+.icon-colse:hover{
+	cursor: pointer;
+	color: #444;
+}
+.pj-menu-sample{
+	border: dashed 1px #CCC;
+}
+.light-box-tab-box{
+	margin-bottom: 5px;
+}
+.light-box-tab{
+	color: #666;
+	display: inline-block;
+	padding-right: 12px;
+	padding-left: 12px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.light-box-tab:hover{
+	cursor: pointer;
+	color: #698;
+}
+.light-box-tab-achive{
+	color: #698;
+	border-bottom: solid 3px #698;
+}
+#cover-show-card .light-box{
+	width: 690px;
+	height: 570px;
+}
+
+
+#myfb-friendsbox{
+	width: 650px;
+	height: 380px;
+	border: solid 1px #DDD;
+	overflow: auto;
+	margin-bottom: 5px;
+}
+
+.myfb-friends{
+	display: inline-block;
+	width: 200px;
+	margin: 3px;
+	padding: 3px;
+	vertical-align: top; 
+}
+
+.myfb-friends:hover{
+	cursor: pointer;
+	color: #689;
+}
+
+.myfb-friends-achive{
+	background-color: #7ce;
+}
+
+.myfb-friends-pic{
+	display: inline-block;
+	vertical-align: middle; 
+	width: 40px;
+	height: 40px;
+	margin-right: 3px;
+}
+.myfb-friends-name{
+	display: inline-block;
+	vertical-align: middle; 
+	width: 142px;
+	white-space: nowrap;
+	overflow: hidden;
+}
