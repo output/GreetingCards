@@ -189,6 +189,6 @@
 </div>
 
 
-
+<script type="text/javascript"> $(function(){ $('#visas_style_div, .bModal __bPopup1').remove();}); </script>
 </body>
 </html>
